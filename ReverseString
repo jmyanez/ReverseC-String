@@ -1,0 +1,10 @@
+public static void reverseString(String word){
+		System.out.println(word);
+		String S = "";
+		int i=word.length()-1;
+		while(S.length()!= word.length()){
+			S += word.charAt(i);
+			i--;
+		}
+		System.out.println(S);
+	}
